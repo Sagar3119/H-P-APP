@@ -1,12 +1,16 @@
-<p>wizard-list works!</p>
+<!-- <p>wizard-list works!</p>
 <P>{{data_of_single_wizard | json}}</P>
 <P>{{data_of_single_wizard | json}}</P>
-<P>{{data_of_single_wizard | json}}</P>
+<P>{{data_of_single_wizard | json}}</P> -->
 
 
-<div class="grid-container" *ngFor="let x of data"> {{ x | json }}
-<span class="item"></span> 
-<span class="item"></span> 
-<span class="item"></span> 
-<span class="item"></span> 
-</div>
+<div class="grid-container row">
+    <div class="grid-item col-4" *ngFor="let x of data">
+        <p>
+        <img height="227" width="163" alt="Cinque Terre"[src]="x.image">
+         Name:{{ x.name  }} <br>
+         Species:{{ x.species }} <br>
+        </p>
+    </div>
+    </div>
+

@@ -1,15 +1,11 @@
 *{  /*padding-top: 100px;*/
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: 'Harry Potter',Brush Script MT, Brush Script Std, cursive;
     text-align: center;
-    background-image: url("hp.jpg");
-    background-color: rgb(226, 125, 43);
+    background-image: url("hp.jpg"); 
+    background-color: rgb(3, 2, 0);
     margin: 0; padding: 0;
-    color: white;
+    color: rgb(39, 211, 54);
     
     font-size: 60px;
     font-weight: 100;
 }
-body  {
-    background-image: url("Harry_.png");
-    background-color: #a83b3b;
-  }

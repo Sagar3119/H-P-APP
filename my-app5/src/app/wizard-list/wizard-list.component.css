@@ -1,4 +1,4 @@
-.grid-container{
+/* .grid-container{
     display: grid;
     grid-row-gap: 50px;
     grid-column-gap: 50px;
@@ -8,4 +8,4 @@
 .item{
     grid-column-start: 1;
     grid-column-end: 3; 
-}
+} */
