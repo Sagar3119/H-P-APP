@@ -5,11 +5,15 @@
 
 
 <div class="grid-container row">
-    <div class="grid-item col-4" *ngFor="let x of data">
+    <div class="grid-item col-6 col-sm-4 col-md-3 col-lg-2" *ngFor="let x of data">
         <p>
-        <img height="227" width="163" alt="Cinque Terre"[src]="x.image">
+        <img class="character-image"  [src]="x.image"><br>
+        
+        <button>
          Name:{{ x.name  }} <br>
          Species:{{ x.species }} <br>
+        </button> 
+        
         </p>
     </div>
     </div>

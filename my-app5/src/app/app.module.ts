@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { WizardListComponent } from './wizard-list/wizard-list.component';
+import { DataComponent } from './data/data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    WizardListComponent
+    WizardListComponent,
+    DataComponent
   ],
   imports: [
     BrowserModule,

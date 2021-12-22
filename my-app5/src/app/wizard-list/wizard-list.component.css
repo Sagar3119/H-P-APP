@@ -9,3 +9,23 @@
     grid-column-start: 1;
     grid-column-end: 3; 
 } */
+/* .grid-item .character-image{
+    display: block;
+   border: 1px solid #ddd;
+   color: rgba(0, 0, 0, 0.87);
+   font-size: 13px;
+   padding: 13px;
+   width: 100%;
+   border-radius: 25px;
+   padding-left: 35px;
+   transition: box-shadow 80ms;
+   outline: none;
+   height="227" width="163"
+} */
+.grid-item .character-image{
+    height:227px;
+     width:163px;
+     color: rgba(0, 0, 0, 0.87);
+     border-radius: 50%;
+     font-family: 'Harry Potter',Brush Script MT, Brush Script Std, cursive;
+}
