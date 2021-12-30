@@ -7,13 +7,19 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { WizardListComponent } from './wizard-list/wizard-list.component';
 import { DataComponent } from './data/data.component';
+import { HomeComponent } from './home/home.component';
+import { HousesComponent } from './houses/houses.component';
+import { HouseListComponent } from './house-list/house-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     WizardListComponent,
-    DataComponent
+    DataComponent,
+    HomeComponent,
+    HousesComponent,
+    HouseListComponent
   ],
   imports: [
     BrowserModule,

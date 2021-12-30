@@ -1,0 +1,4 @@
+.houses_display{
+    display: flex;
+    justify-content: space-around;
+}

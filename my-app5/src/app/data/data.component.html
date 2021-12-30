@@ -1,6 +1,35 @@
 
 <div class="Btn">
 <form>
- <input type="button" value="Go back!" onclick="history.back()">
 </form>
 </div>
+<input type="button" value="Go back!" onclick="history.back()">
+<div class="whole">
+    <div class="details">
+        
+        <p><b>Name:</b> {{ data_of_wizard.name}}       <b>Alternate Names:</b> {{data_of_wizard.alternate_names}} </p>
+        <!-- <p><b>Alternate Names</b></p> -->
+        <p><b>Species:</b> {{ data_of_wizard.species }}     <b>Gender:</b> {{ data_of_wizard.gender }}     </p>
+        <!-- <p><b>Gender</b></p> -->
+        <p><b>House:</b> {{ data_of_wizard.house }}    <b>Date of Birth:</b> {{ data_of_wizard.dateOfBirth}} </p>
+        <!-- <p><b>Date of Birth</b></p> -->
+        <p><b>Year of Birth</b> {{ data_of_wizard.yearOfBirth }}      <b>Wizard:</b> {{ data_of_wizard.wizard}} </p>
+        <!-- <p><b>Wizard</b></p> -->
+        <p><b>Ancestry:</b> {{ data_of_wizard.ancestry }}    <b>Eye Colour:</b> {{data_of_wizard.eyeColour}} </p>
+        <!-- <p><b>Eye Colour</b></p> -->
+        <p><b>Hair Colour:</b>{{ data_of_wizard.hairColour }}     <b>Wand:</b> {{data_of_wizard.wand}} </p>
+        <!-- <p><b>Wand</b></p> -->
+        <p><b>Patronus:</b>{{ data_of_wizard.patronus }}        <b>Hogwarts Student:</b> {{data_of_wizard.hogwartsStudent}} </p>
+        <!-- <p><b>Hogwarts Student</b></p> -->
+        <p><b>Hogwarts Staff:</b>{{ data_of_wizard.hogwartsStaff }}   <b>Actor:</b> {{data_of_wizard.actor}} </p>
+        <!-- <p><b>Actor</b></p> -->
+        <p><b>Alternate Actors:{{ data_of_wizard.alternate_actors }}</b>     <b>Alive:</b> {{data_of_wizard.alive}} </p>
+        <!-- <p><b>Alive</b></p> -->
+        <p>
+            <span *ngIf = "data_of_wizard.image else elseblock" > </span>
+        <img class="character-image" [src]="data_of_wizard?.image">
+        <ng-template #elseblock>
+            <img class="Male" *ngIf="data_of_wizard.gender == 'male'" src="assets/Images/MaleAni.jpg"/>
+           <img class="Female" *ngIf="data_of_wizard.gender == 'female'" src="assets/Images/Femaleani.jpg" />
+        
+

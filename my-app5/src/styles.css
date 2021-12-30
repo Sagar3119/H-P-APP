@@ -2,11 +2,17 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('ani.jpg');
+    /* background-image: url('ani.jpg'); */
+    background: url('./assets/video/206646.gif') no-repeat;
+     background-size: cover;
+     color: rgb(15, 148, 209);
+    font-family: 'Harry Potter', Arial, Helvetica, sans-serif;
+    text-align: center;
+     
 }
 
 h1 {
-    color: black;
+    color: rgb(15, 148, 209);
     font-family: 'Harry Potter', Arial, Helvetica, sans-serif;
     /* font-family: Able, Roman,Felt Tip,Harry P ; */
     font-size: 250%;

@@ -1,3 +1,26 @@
 *{
     margin-left: 1000;
 }
+.character-image{
+    height:227px;
+     width:163px;
+     color: rgba(0, 0, 0, 0.87);
+     border-radius: 50%;
+     font-family: 'Harry Potter',Brush Script MT, Brush Script Std, cursive;
+}
+.Male{
+    height:227px;
+     width:163px;
+     color: rgba(0, 0, 0, 0.87);
+     border-radius: 50%;
+     font-family: 'Harry Potter',Brush Script MT, Brush Script Std, cursive;
+}.Female{
+    height:227px;
+     width:163px;
+     color: rgba(0, 0, 0, 0.87);
+     border-radius: 50%;
+     font-family: 'Harry Potter',Brush Script MT, Brush Script Std, cursive;
+}
+/* .whole{
+    font-family: Arial, Helvetica, sans-serif;
+} */

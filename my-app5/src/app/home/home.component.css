@@ -1,0 +1,12 @@
+.home_display{
+    display: flex;
+    justify-content: space-around;
+}
+.col-md-3{
+
+    width: 120px;
+    padding: none;
+    text-align: center;
+    
+ 
+ }
