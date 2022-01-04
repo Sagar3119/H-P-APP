@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { DataService } from '../services/data.service';
 
 @Component({
@@ -12,10 +12,12 @@ export class HouseListComponent implements OnInit {
   data:any = [];
   constructor(
     private dataservice: DataService,
-    private router: Router
+    private router: Router,
+    private route: ActivatedRoute
   ) { }
   ngOnInit(): void {
-    this.dataservice.getWizardByHouse(this.dataservice.active_house).subscribe(
+    let houseName = this.route.snapshot.params["name"];
+    this.dataservice.getWizardByHouse(houseName).subscribe(
       (response:any) => {
         this.data = response ;
       }

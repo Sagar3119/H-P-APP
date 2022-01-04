@@ -1,4 +1,31 @@
 .houses_display{
     display: flex;
     justify-content: space-around;
+    background-image: url(/my-app5/src/assets/Images/hufflepuff_bg.jpg);
+    font: 'Harry Potter';
+    
+    margin-top: 100px;
+
+    
+}
+.houses_display.details{
+    border: none;
+    background: url('/my-app5/src/assets/Images/hufflepuff_bg.jpg') no-repeat top left;
+    padding: 2px 8px;
+}
+.Detail{
+    
+        border: 2px solid #ccc;
+        padding: 10px;
+        width: 20em;
+        /* background-image: url(/my-app5/src/assets/Images/hufflepuff_bg.jpg); */
+        background: url("/my-app5/src/assets/Images/hufflepuff_bg.jpg") no-repeat scroll 0 0 transparent;
+      
+}
+
+
+.house_flag{
+    height: 400px;
+    display: block;
+    margin: auto;
 }

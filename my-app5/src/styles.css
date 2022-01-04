@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     /* background-image: url('ani.jpg'); */
-    background: url('./assets/video/206646.gif') no-repeat;
+    background: url('./assets/Images/background.gif') no-repeat;
      background-size: cover;
      color: rgb(15, 148, 209);
     font-family: 'Harry Potter', Arial, Helvetica, sans-serif;
@@ -18,3 +18,8 @@ h1 {
     font-size: 250%;
     text-align: center;
   }
+  
+  @font-face {
+    font-family: "Harry Potter";
+    src: local("Potter"), url(./assets/fonts/HARRP___.woff) format("truetype");
+}

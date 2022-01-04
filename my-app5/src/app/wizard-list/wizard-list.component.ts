@@ -11,12 +11,6 @@ export class WizardListComponent implements OnInit {
   //private _characters: any = [];
   data:any = [];
   data_of_single_wizard:string="";
-  // public get characters(): any {
-  //   return this._characters;
-  // }
-  // public set characters(value: any) {
-  //   this._characters = value;
-  // }
 
 
  constructor(
