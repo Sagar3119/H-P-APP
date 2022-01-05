@@ -1,9 +1,0 @@
-<h2>Houses</h2>
-<button class="Detail" onclick="history.back()">Back</button>
-<div class="houses_display ">
-    <div *ngFor="let name of house_names">
-        <button class="Detail" (click)="onClick(name)"> {{name}}</button>
-        <img class="house_flag" [src]="'../../assets/Images/'+name+'_flag.png'">
-    </div>
-
-</div>
